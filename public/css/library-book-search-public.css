@@ -1,0 +1,64 @@
+/**
+ * Frontend css for Search form
+ */
+.lbs-book-meta-details-tbl th, .lbs-book-meta-details-tbl td{
+	border-bottom: 1px solid #CCC;
+}
+
+.lbs-book-meta-details-tbl, .lbs-book-meta-details-tbl th, .lbs-book-meta-details-tbl td{
+	border: none;
+}
+.rating-stars ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 0;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+.rating-stars ul > li.star {
+	display: inline-block;
+}
+.rating-stars ul > li.star.selected > i.fa {
+	color: #ff682c;
+}
+
+.lbs-failure p {
+    background-color: #d04f4f;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+.lbs-list-results thead tr th:first-child,
+.lbs-list-results tbody tr td:first-child {
+	width: 35px;
+	min-width: 35px;
+	max-width: 35px;
+	word-break: break-all;
+}
+.lbs-col{
+	width: 49%;
+}
+.lbs-book-name, .lbs-book-publisher{
+	float: left;
+}
+.lbs-author, .lbs-rating{
+	float: right;
+}
+.lbs-row{
+	margin-top: 5%;
+}
+.lbs-row-4{
+	width: 100%;
+	margin: 5% 0 8% 0;
+}
+.lbs-search{
+	text-align: center;
+}
+input#lbs-book-name, input#lbs-author {
+    width: 100%;
+}
+.lbs-success p {
+    background: #7d6464;
+    color: #fff;
+    padding: 10px;
+}
